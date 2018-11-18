@@ -1,15 +1,1 @@
-"use strict";
-
-+function () {
-  var btn = document.querySelector('.mob-btn');
-  var lineTop = document.querySelector('.mob-btn__line_top');
-  var lineMiddle = document.querySelector('.mob-btn__line_middle');
-  var lineDown = document.querySelector('.mob-btn__line_down');
-  var mobNav = document.querySelector('.mob-nav');
-  btn.addEventListener('click', function () {
-    lineTop.classList.toggle('mob-btn__line_1');
-    lineMiddle.classList.toggle('mob-btn__line_2');
-    lineDown.classList.toggle('mob-btn__line_3');
-    mobNav.classList.toggle('height');
-  });
-}();
+"use strict";!function(){var e=document.querySelector(".mob-btn"),t=document.querySelector(".mob-btn__line_top"),n=document.querySelector(".mob-btn__line_middle"),o=document.querySelector(".mob-btn__line_down"),l=document.querySelector(".mob-nav");e.addEventListener("click",function(){t.classList.toggle("mob-btn__line_1"),n.classList.toggle("mob-btn__line_2"),o.classList.toggle("mob-btn__line_3"),l.classList.toggle("height")})}();
